@@ -101,7 +101,8 @@ class UnturnedServerManager:
         help_text = (
             "this does not go over how to forward your server onto the internet, that is a whole different topic.\n"
             "thats a bit to complicated for me to add to this program, maybe at a later date.\n"
-            "this program is designed to just help edit your servers settings, and to make it easier to find the files you need to edit.\n\n"
+            "this program is designed to just help edit your servers settings, and to make it easier to find the files you need to edit.\n"
+            "So for the time being, if you follow this tutorial, it will just be a lan server.\n"
 
             "fist off, you need to install and run Unturned server manager once, if you havent already.\n"
             "then use the select folder button to select the folder where your server is installed.\n"
@@ -159,7 +160,9 @@ class UnturnedServerManager:
             "/give [ID or \"item name\"] - Give an item to a player.\n"
             "/kick [player] - Kick a player from the server.\n"
             "/ban [player] - Ban a player from the server.\n"
-            "/save - Save the server state."
+            "/save - Save the server state.\n\n"
+
+            "Now just run from steam or file explorer and enjoy your server!\n\n"
         )
 
         # Create a new window for help
